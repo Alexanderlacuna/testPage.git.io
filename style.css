@@ -1,0 +1,76 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+
+.main{
+
+	scroll-behavior: smooth;
+}
+
+.container{
+
+	height: 100vh;
+	background: url('https://images.pexels.com/photos/190048/pexels-photo-190048.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+
+	color:#fff;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Charm', cursive;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+
+}
+
+.scroll-behav{
+	/*scroll-behavior: smooth;*/
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background:url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+}
+
+#scroll{
+	/*scroll-behavior: smooth;*/
+}
+
+
+
+.container-header{
+	font-size: 6rem;
+	background: url('https://images.pexels.com/photos/1493226/pexels-photo-1493226.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-clip:text;
+	color:transparent;
+
+	animation-name: header-anime;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+
+@keyframes header-anime{
+	0%{
+		background-position:0px 30px;
+	}
+
+	100%{
+		background-position:50px 70px;
+	}
+}
